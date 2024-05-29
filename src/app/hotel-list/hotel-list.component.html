@@ -1,0 +1,46 @@
+<div class="container">
+  <div class="my-2">
+    <div class="row ">
+      <div class="col-md-4">
+        <span class="filter"><b>Rechercher hôtels: </b></span>
+        <b>{{hotelFilter}}</b>
+      </div>
+      <div class="col-md-8 form-group">
+        <input type="text" class="input" [(ngModel)]="hotelFilter" placeholder="Rechercher par nom d'hôtel">
+      </div>
+    </div>
+
+    <button class="btn btn-primary d-flex mb-2 mt-2 boutonAfficher" (click)="toggleIsNewBadge()">
+      <span class="material-icons">
+        {{showBadge? "visibility_off": "visibility"}}
+      </span>
+      <span class="ml-2">
+        {{showBadge ? "Cacher":"Afficher"}} nouveau
+      </span>
+    </button>
+  </div>
+
+  
+
+  <div class="row row-cols-1 row-cols-md-3 cadre">
+    <div class="col mb-4 cadreTotal" *ngFor="let hotel of filteredHotels">
+      <span class="badge-rounded boutonNouveau" *ngIf="showBadge">Nouveau</span>
+      <img src="{{hotel.imageUrl}}" class="card-img-top" [title]="hotel.hotelName">
+      <div class="card-body">
+        <h5 class="Card-title">{{hotel.hotelName | uppercase }}</h5>
+        <p class="card-text">{{hotel.description}}</p>
+        <p class="card-text">
+          {{hotel.prix}}.000 f cfa
+        </p>
+        
+        <div class="d-flex justify-content-between align-items-baseline">
+          <app-star-rating [rating]="hotel.rating"></app-star-rating>
+          <span class="material-icons text-white p-2 rounded-circle boutonDetail" [routerLink]="['/hotels', hotel.hotelId]">
+            keyboard_arrow_right
+          </span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

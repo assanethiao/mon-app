@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="card text-left custom-card">
+        <div class="card-body">
+            <div *ngIf="hotel">
+                <div class="text-white h3 mb-3">{{ hotel.hotelName | uppercase }}</div>
+                <div class="row">
+                    <div class="col-md-8 montext">
+                        <div>Nom: {{ hotel.hotelName }}</div>
+                        <div>Description: {{ hotel.description }}</div>
+                        <div>Prix: {{ hotel.prix }}.000 f cfa</div>
+                        <div class="row">
+                            <div class="col-md-3">Note:</div>
+                            <div class="col-md-8 positionEtoile">
+                                <app-star-rating [rating]="hotel.rating"></app-star-rating>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img
+                            [src]="hotel.imageUrl"
+                            [title]="hotel.hotelName | uppercase"
+                            [alt]="hotel.hotelName"
+                            class="card-img-top"
+                        >
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <button class="btn btn-outline-info d-flex boutonDetail" (click)="backToList()">
+                    <span class="material-icons">keyboard_arrow_left</span>
+                    Retour à la liste des hôtels
+                </button>
+              </div>
+        </div>
+    </div>
+</div>

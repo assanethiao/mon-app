@@ -1,0 +1,33 @@
+.card-img-top{
+    height: 50%;
+    
+  }
+  .cadre{
+    margin-top: 10px;
+  }
+  .cadreTotal{
+    border-right: solid rgb(216, 248, 248) 0.2em;
+  }
+  .card-body{
+    margin-bottom: -70%;
+    background-color: rgb(216, 248, 248);
+  }
+  
+  .badge-rounded{
+    display: inline-block;
+    padding: 0.25em 0.4m;
+    border-radius: 10px;
+    
+    color: #ffffff;
+    margin-top: 0.5em;
+  }
+
+  .input{
+    width: 13em;
+  }
+  
+  .boutonDetail, .boutonAfficher, .boutonNouveau{
+    cursor: pointer;
+    background-color: blue;
+  }
+  

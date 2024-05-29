@@ -1,0 +1,114 @@
+[
+    {
+      "hotelId": 1,
+      "hotelName": "Hôtel de la Paix",
+      "description": "Un havre de paix au cœur de la ville",
+      "prix": 150,
+      "imageUrl": "assets/image/im1.jpg",
+      "rating": 3.5
+    },
+    {
+     "hotelId": 2,
+      "hotelName": "Auberge du Soleil",
+      "description": "Luxueux séjour avec vue sur la mer",
+      "prix": 250,
+      "imageUrl": "assets/image/im2.jpg",
+      "rating": 5
+    },
+    {
+     "hotelId": 3,
+      "hotelName": "Royal Palace Hotel",
+      "description": "Charme rustique dans les collines",
+      "prix": 120,
+      "imageUrl": "assets/image/im3.jpg",
+      "rating": 2.5
+    },
+    {
+     "hotelId": 4,
+      "hotelName": "Grand Hotel Continental",
+      "description": "Élégance classique au cœur de la ville",
+      "prix": 180,
+      "imageUrl": "assets/image/im4.jpg",
+      "rating": 3.5
+    },
+    {
+     "hotelId": 5,
+      "hotelName": "Sunset Beach Resort",
+      "description": "Vacances parfaites sur la côte",
+      "prix": 200,
+      "imageUrl": "assets/image/im5.jpg",
+      "rating": 4.5
+    },
+    {
+     "hotelId": 6,
+      "hotelName": "Mountain View Lodge",
+      "description": "Escapade paisible dans les montagnes",
+      "prix": 130,
+      "imageUrl": "assets/image/im6.jpg",
+      "rating": 3.5
+    },
+    {
+     "hotelId": 7,
+      "hotelName": "Seaside Retreat",
+      "description": "Retraite côtière avec vues à couper le souffle",
+      "prix": 220,
+      "imageUrl": "assets/image/im7.jpg",
+      "rating": 5
+    },
+    {
+     "hotelId": 8,
+      "hotelName": "Urban Oasis Hotel",
+      "description": "Tranquillité au cœur de la métropole",
+      "prix": 170,
+      "imageUrl": "assets/image/im8.jpg",
+      "rating": 4
+    },
+    {
+     "hotelId": 9,
+      "hotelName": "Riverside Lodge",
+      "description": "Séjour pittoresque le long de la rivière",
+      "prix": 140,
+      "imageUrl": "assets/image/im9.jpg",
+      "rating": 3
+    },
+    {
+     "hotelId": 10,
+      "hotelName": "Golden Sands Resort",
+      "description": "Plage de sable doré et soleil éclatant",
+      "prix": 280,
+      "imageUrl": "assets/image/im10.jpg",
+      "rating": 4.5
+    },
+    {
+     "hotelId": 11,
+      "hotelName": "Chateau de la Marquise",
+      "description": "Splendeur historique au milieu des vignobles",
+      "prix": 300,
+      "imageUrl": "assets/image/im11.jpg",
+      "rating": 5
+    },
+    {
+     "hotelId": 12,
+      "hotelName": "Lakeview Retreat",
+      "description": "Tranquilité au bord du lac",
+      "prix": 190,
+      "imageUrl": "assets/image/im12.jpg",
+      "rating": 4.5
+    },
+    {
+     "hotelId": 13,
+      "hotelName": "Hilltop Hideaway",
+      "description": "Vue imprenable depuis les hauteurs",
+      "prix": 170,
+      "imageUrl": "assets/image/im13.jpg",
+      "rating": 4
+    },
+    {
+     "hotelId": 14,
+      "hotelName": "Forest Haven Cabin Retreat" ,
+      "description": "Retraite rustique au cœur de la forêt",
+      "prix": 120,
+      "imageUrl": "assets/image/im15.jpg",
+      "rating": 3
+    }
+  ]
